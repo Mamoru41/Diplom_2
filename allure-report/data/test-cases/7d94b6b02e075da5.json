@@ -1,0 +1,173 @@
+{
+  "uid" : "7d94b6b02e075da5",
+  "name" : "Регистрация без обязательного поля password",
+  "fullName" : "tests.test_user_registration.TestUserRegistration#test_register_without_password",
+  "historyId" : "a446ed967ffdf6fd6e968850010eb69f",
+  "time" : {
+    "start" : 1764787830108,
+    "stop" : 1764787830398,
+    "duration" : 290
+  },
+  "description" : "Регистрация без заполнения обязательного поля password",
+  "descriptionHtml" : "<p>Регистрация без заполнения обязательного поля password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserRegistration",
+    "time" : {
+      "start" : 1764787830108,
+      "stop" : 1764787830108,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Регистрация без заполнения обязательного поля password",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Подготовка данных без password",
+      "time" : {
+        "start" : 1764787830108,
+        "stop" : 1764787830108,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправка запроса регистрации",
+      "time" : {
+        "start" : 1764787830108,
+        "stop" : 1764787830398,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST запрос на 'https://stellarburgers.education-services.ru/api/auth/register'",
+        "time" : {
+          "start" : 1764787830108,
+          "stop" : 1764787830398,
+          "duration" : 290
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1064da9e5eb6729",
+          "name" : "Request details",
+          "source" : "1064da9e5eb6729.txt",
+          "type" : "text/plain",
+          "size" : 167
+        } ],
+        "parameters" : [ {
+          "name" : "endpoint",
+          "value" : "'https://stellarburgers.education-services.ru/api/auth/register'"
+        }, {
+          "name" : "json",
+          "value" : "{'email': 'test_user_qtxh9ew55d@example.com', 'name': 'Test User'}"
+        }, {
+          "name" : "headers",
+          "value" : "None"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка ответа",
+      "time" : {
+        "start" : 1764787830398,
+        "stop" : 1764787830398,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserRegistration::0",
+    "time" : {
+      "start" : 1764787830399,
+      "stop" : 1764787830399,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_registration"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserRegistration"
+  }, {
+    "name" : "host",
+    "value" : "shugardady"
+  }, {
+    "name" : "thread",
+    "value" : "24248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d94b6b02e075da5.json",
+  "parameterValues" : [ ]
+}
