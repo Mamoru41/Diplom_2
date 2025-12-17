@@ -1,3 +1,0 @@
-Endpoint: https://stellarburgers.education-services.ru/api/auth/register
-Headers: {}
-JSON: {'json': {'password': '[MASKED]', 'name': 'Test User'}}

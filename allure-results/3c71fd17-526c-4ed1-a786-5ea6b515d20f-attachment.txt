@@ -1,3 +1,0 @@
-Endpoint: https://stellarburgers.education-services.ru/api/orders
-Headers: {'Authorization': 'Bearer [MASKED]'}
-JSON: {'json': {'ingredients': []}}

@@ -1,2 +1,0 @@
-Endpoint: https://stellarburgers.education-services.ru/api/ingredients
-Headers: {}
